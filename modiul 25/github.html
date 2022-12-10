@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>github delet button</title>
+</head>
+<body>
+    <p id="screst-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, qui!</p>
+    <input id="text-fild" placeholder="please type the delete" type="text">
+    <button id="delete-button" disabled >delete</button>
+    <script>
+        document.getElementById('text-fild').addEventListener('keyup',function(event){
+        const textFild = event.target.value;
+
+        const deletButton = document.getElementById('delete-button')
+        if(textFild === 'delete'){
+            deletButton.removeAttribute('disabled');
+        }
+        else{
+            deletButton.setAttribute('disabled',true)
+        }
+        })
+        document.getElementById('delete-button').addEventListener('click',function(){
+            const screat = document.getElementById('screst-text')
+            screat.style.display = 'none'
+        })
+    </script>
+</body>
+</html>

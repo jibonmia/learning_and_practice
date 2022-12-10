@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Try</title>
+</head>
+<body>
+    <p id="text-recup">Lorem ipsum dolor sit amet.</p>
+    <input id="text-fild" type="text">
+    <button id="submit-submit">submit</button>
+    <script>
+        document.getElementById('submit-submit').addEventListener('click',function(){
+            const textFild = document.getElementById('text-fild')
+            const text = textFild.value;
+
+            const textrecup = document.getElementById('text-recup')
+            textrecup.innerText= text;
+        })
+    </script>
+</body>
+</html>
