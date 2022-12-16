@@ -6,9 +6,9 @@ document.getElementById('btn-submit').addEventListener('click', function(){
     const password = passField.value;
     
     if(email === 'jibonbd520@gmail.com' && password === "123456"){
-        console.log("this is valid");
+        window.location.href = 'bank.html';
     }
     else{
-        console.log("this is not valid");
+       alert('tui password vule gesos')
     }
 })
