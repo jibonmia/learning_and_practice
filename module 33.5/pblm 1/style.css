@@ -1,0 +1,13 @@
+.uiBox{
+    border: 1px solid;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(220, 196, 243);
+}
+body{
+    background-color: rgb(201, 240, 240);
+}
+body h1{
+    text-align: center;
+}

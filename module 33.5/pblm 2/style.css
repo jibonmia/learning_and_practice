@@ -1,0 +1,30 @@
+#user-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+body h1{
+    text-align: center;
+}
+.boxStyle{
+    width: 450px;
+    height: auto;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 30px;
+    background-color: #c2d2e0;
+    padding: 20px;
+}
+.boxStyle img{
+    border-radius: 50%;
+}
+.btn{
+    text-align: center;
+    margin-top: 30px;
+}
+button{
+    padding: 20px 40px 20px 40px;
+    font-size: 30px;
+    background-color: #c2d2e0;
+    text-align: center;
+}

@@ -1,0 +1,19 @@
+.country img{
+    width: 100px;
+    height: 80px;
+}
+#country-box{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 20px;
+   
+}
+.country{
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 20px;
+}
+.country button{
+    width: 100px;
+    height: auto;
+}

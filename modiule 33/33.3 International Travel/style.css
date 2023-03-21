@@ -1,0 +1,15 @@
+header{
+    text-align: center;
+}
+.country{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid;
+}
+.country img{
+    width: 100px;
+    height: auto;
+}
